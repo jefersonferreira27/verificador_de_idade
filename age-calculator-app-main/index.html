@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fbabd35e4c.js" crossorigin="anonymous"></script>
+  <title>Verificador de idade</title>
+  <script src="./script/jquery-3.7.0.js"></script>
+</head>
+
+<body>
+  <header>
+    <i class="fa-solid fa-moon" id ="dark" style="color: #8d6bdb;"></i>
+  </header>
+  <main>
+    <div class="date">
+      <label class="label" for="">Day
+        <input type="text" placeholder="DD" id="day">
+      </label>
+      <label class="label" for="">Month
+        <input type="text" placeholder="MM" id="month">
+      </label>
+      <label class="label" for="">Year
+        <input type="text" placeholder="YYYY" id="year">
+      </label>
+      <div class="verificar">
+        <i class="fa-solid fa-magnifying-glass" style="color: #854dff;"></i>
+    </div>
+    </div>
+    <div class="result">
+      <div class="year">
+        <p class="textResult"><span>--</span>years</p>
+      </div>
+      <div class="months">
+        <p class="textResult"><span>--</span>months</p>
+      </div>
+      <div class="days">
+        <p class="textResult"><span>--</span>days</p>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="./script/jquery.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+i:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 94%);
+    overflow: hidden;
+}
+
+/* Container principal do verificador */
+main{
+    margin: 15vh auto;
+    height: 67vh;
+    width: 88vh;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 3% 3% 22% 3%;
+}
+
+/* Container das datas */
+.date{
+    display: flex;
+    padding: 9.5%;
+}
+
+.label{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    opacity: 0.65;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+    height: 20%;
+
+}
+
+input{
+    display: block;
+    padding: 12%;
+    width: 82%;
+    border: 1px solid hsl(259, 100%, 65%);
+    border-radius: 5%;
+
+}
+
+input::placeholder{
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.verificar{
+    margin-top: 3%;
+}
+
+i{
+    font-size: 3rem;
+}
+
+/* Resultado da verficação */
+.result{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+p{
+    font-size: 3.4rem;
+    font-family: 'Poppins' ;
+    font-weight: 800;
+    margin-left: 4%;
+}
+
+span{
+    color: hsl(259, 100%, 65%);
+}
+
